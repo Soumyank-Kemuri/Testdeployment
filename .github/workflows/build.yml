@@ -31,8 +31,6 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run start
-      - name: Generate
-        run: npm run generate
         # - name: Zip artifact for upload
         #  run: cd dist && zip ../dist.zip . -r
       - name: Archive Production Artifact
@@ -66,8 +64,6 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run start
-      - name: Generate
-        run: npm run generate
         # - name: Zip artifact for upload
         #  run: cd dist && zip ../dist.zip . -r
       - name: Archive Production Artifact
